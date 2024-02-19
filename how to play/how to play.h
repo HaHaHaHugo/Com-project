@@ -40,6 +40,17 @@ void Help_Eat(){
     cin.get();
 }
 
+// Healing Tutorial
+void Help_Heal(){
+    cout << "                   Healing" << endl;
+    cout << "\n";
+    cout << "Each item you pick will increase your health stats" << endl;
+    cout << "differently. Depends on who use it." << endl;
+    cout << "Choose it according to the situation." << endl;
+    cout << "            --- ENTER TO CONTINUE --- \n";
+    cin.get();
+}
+
 // Crafting Tutorial
 void Help_Crafting(){
     cout << "                    Crafting" << endl;

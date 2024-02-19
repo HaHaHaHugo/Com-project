@@ -36,6 +36,17 @@ void Help_Eat(){
     cin.get();
 }
 
+// Healing Tutorial
+void Help_Heal(){
+    cout << "                   Healing" << endl;
+    cout << "\n";
+    cout << "Each item you pick will increase your health stats" << endl;
+    cout << "differently. Depends on who use it." << endl;
+    cout << "Choose it according to the situation." << endl;
+    cout << "            --- ENTER TO CONTINUE --- \n";
+    cin.get();
+}
+
 // Crafting Tutorial
 void Help_Crafting(){
     cout << "                    Crafting" << endl;
@@ -58,6 +69,7 @@ void Help_Traveling(){
     cin.get();
 }
 
+// Hunting Tutorail
 void Help_Hunting(){
     cout << "                      Hunting" << endl;
     cout << "\n";
@@ -68,6 +80,7 @@ void Help_Hunting(){
     cin.get();
 }
 
+// Jobs Tutorial
 void Help_Job(){
     cout << "                  Accepting Jobs" << endl;
     cout << "\n";
@@ -80,6 +93,7 @@ void Help_Job(){
     cin.get();
 }
 
+// Trading Tutorial
 void Help_Trading(){
     cout << "                      Trading" << endl;
     cout << "\n";
@@ -89,6 +103,7 @@ void Help_Trading(){
     cin.get();
 }
 
+// Warzone Driveby Tutorial
 void Help_WarzoneDriveby(){
     cout << "                      Warzone" << endl;
     cout << "\n";
@@ -107,6 +122,7 @@ void Help_WarzoneDriveby(){
     cin.get();
 }
 
+// Stress Tutorial
 void Help_Stress(){
     cout << "                     Stress" << endl;
     cout << "\n";
@@ -121,6 +137,7 @@ void Help_Stress(){
     cin.get();
 }
 
+// Repair Car Tutorial
 void Help_RepairCar(){
     cout << "                 Repairing Car" << endl;
     cout << "\n";
