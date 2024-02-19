@@ -6,6 +6,8 @@ using namespace std;
 const int height = 20, width = 70;
 int x_pick = 10, y_pick = 15;
 char player_input;
+const int num_of_text = 3;
+string text_123[num_of_text] = {"[1] ddddddddd", "[2] eeeeeeeee", "[3] fffffffff"};
 
 void Buttons() {
     switch (player_input) {
@@ -30,9 +32,17 @@ void outline(int i, int j) {
     else if((i==0 || i==height) && j<width-4) cout << "_";
     else cout << " ";
 }
+void choice(int i, int j) {
+    for(int g=0; g<height+1; g+=2) {
+        int k=0;
+        k++;
+        if(i==g && j==0 && k<num_of_text) cout << text_123[num_of_text];
+    }
+}
 void Draw() {
     for(int i=0; i<height+1; i++) {
         for(int j=0; j<width+1; j++) {
+            choice(i,j);
             outline(i,j);
         }
         cout << endl;
