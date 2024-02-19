@@ -7,6 +7,10 @@
 
 using namespace std;
 
+//
+//                  !!!!!!!!!!   CAUTION: DO NOT TEST IN .h   !!!!!!!!!!
+//
+
 // allfunction
 struct items
 {
@@ -19,12 +23,12 @@ struct items
 
 // heal items + function
 void items::Heal(){
-    int heal_bandage = 10;
-    int heal_medicine = 25;
-    int heal_syring = 40;
-    int heal_bloodbag = 50;
-    int heal_firstaidkit = 75;
-    int heal_medicbag = 100;
+    int bandage = 10;
+    int medicine = 25;
+    int syring = 40;
+    int bloodbag = 50;
+    int firstaidkit = 75;
+    int medicbag = 100;
 };
 
 // learning items + function
