@@ -32,11 +32,7 @@ void outline(int i, int j) {
     else cout << " ";
 }
 void choice(int i, int j) {
-    int k=0;
-    k++;
-    for(int g=0; g<height+1; g+=2) {
-        if(i==g && j==width+1 && k<4) cout << text_123[k];
-    }
+    if(j==width) cout << text_123[i];
 }
 void Draw() {
     for(int i=0; i<height+1; i++) {
