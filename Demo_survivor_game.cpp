@@ -1,53 +1,85 @@
-#include <iostream>
-#include <string>
-#include <cmath>
+#include<iostream>
+#include<string>
+#include<cmath>
+#include<vector>
+#include<ctime>
+#include<cstdlib>
+#include<iomanip>
 using namespace std;
 
-const int height = 20, width = 70;
-int x_pick = 10, y_pick = 15;
-char player_input;
-string text_123[3] = {"[1] ddddddddd", "[2] eeeeeeeee", "[3] fffffffff"};
+char input;
+int d=0;
 
-void Buttons() {
-    switch (player_input) {
-        case 'w':
-        y_pick-=2;
-        break;
-        case 'a':
-        x_pick-=2;
-        break;
-        case 's':
-        y_pick+=2;
-        break;
-        case 'd':
-        x_pick+=2;
-        break;
-        default:
-        break;
+class shop{
+        string item1;
+        string item2;
+        string item3;
+        string item4;
+        string item5;
+        string item6;
+        string item7;
+        string item8;
+    public:
+        shop(string,string); //can hold item for number of string in shop()
+};
+
+class select{
+        int x;
+        int y;
+        bool selected;
+        bool enter;
+    public:
+        void direction();
+        bool selected_yes(int,int);
+        bool enter_yes();
+};
+
+shop item_in_shop1("city a","s item"); //can hold item for number of string in item_in_shop();
+//shop item_in_shop2(--------);
+//shop item_in_shop3(--------);
+
+shop::shop(string a, string b){
+    item1 = a; item2 = b;
+}
+
+void start_game(){
+
+}
+
+void select::direction() {
+    switch(input) {
+        case 'w': y--; break;
+        case 'a': x--; break;
+        case 's': y++; break;
+        case 'd': x++; break;
+        case 'e': enter = true; break;
+        default: break;
     }
 }
-void outline(int i, int j) {
-    if((j==0 || j==width-5) && i!=0) cout << "|";
-    else if((i==0 || i==height) && j<width-4) cout << "_";
-    else cout << " ";
+
+bool select::selected_yes(int a,int b){
+    return true;
 }
-void choice(int i, int j) {
-    if(j==width) cout << text_123[i];
+
+bool select::enter_yes(){
+    if(enter==true) return true;
+    else return false;
 }
-void Draw() {
-    for(int i=0; i<height+1; i++) {
-        for(int j=0; j<width+1; j++) {
-            choice(i,j);
-            outline(i,j);
-        }
+
+void show_screen(){
+
+}
+
+int main(){
+    select player;
+    start_game();
+    while(true){
+        show_screen();
+        cin >> input;
+        player.direction();
+        if(player.enter_yes()==true) d=1; //temporary check for 'e' = enter
+        cout << d;
         cout << endl;
     }
-}
-int main() {
-    while(true) {
-        Draw();
-        cin >> player_input;
-        Buttons();
-    }
-return 0;
+    return 0;
 }
