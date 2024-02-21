@@ -8,7 +8,7 @@
 using namespace std;
 
 char input;
-int d=0;
+string d;
 
 class shop{
         string item1;
@@ -47,6 +47,7 @@ void start_game(){
 }
 
 void select::direction() {
+    enter = false;
     switch(input) {
         case 'w': y--; break;
         case 'a': x--; break;
@@ -74,10 +75,11 @@ int main(){
     select player;
     start_game();
     while(true){
+        d = "No";
         show_screen();
         cin >> input;
         player.direction();
-        if(player.enter_yes()==true) d=1; //temporary check for 'e' = enter
+        if(player.enter_yes()==true) d = "Yes"; //temporary check for 'e' = enter = select that item/chioce
         cout << d;
         cout << endl;
     }
