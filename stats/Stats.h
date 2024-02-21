@@ -7,6 +7,10 @@
 
 using namespace std;
 
+//
+//                  !!!!!!!!!!   CAUTION: DO NOT TEST IN .h   !!!!!!!!!!
+//
+
 // stats + abilities + all_function
 struct stats
 {
