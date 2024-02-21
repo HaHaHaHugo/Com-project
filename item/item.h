@@ -17,8 +17,9 @@ struct items
     void Heal();
     void Books();
     void Crafting_Materials();
-    void Car_Items();
+    void Usable_Items();
     void Foods();
+    void Currency();
 };
 
 // heal items + function
@@ -47,9 +48,17 @@ void items::Crafting_Materials(){
     int tools_kit = 100;
 };
 
-// car items + function
-void items::Car_Items(){
+// usable items + function
+void items::Usable_Items(){
+
+    // Common Items
     int gasolin_tank = 25;
+    int bullet;
+
+    // Special Items
+    bool walkman;
+    bool guitar;
+    bool mouth_organ;
 };
 
 // food items + function
@@ -59,7 +68,8 @@ void items::Foods(){
     int water_bottle = 10;
     int juice_box = 25;
     int coffee = 50;
-    int milk_gallon = 75;
+    int moonshine = 75;
+    int milk_gallon = 100;
 
     // Foods
     int sandwich = 10;
@@ -80,4 +90,10 @@ void items::Foods(){
     int banana = 25;
     int jackfruit = 50;
     int pineapple = 75;
+    int canned_fruit = 100;
+};
+
+// currency item + function
+void items::Currency(){
+    int coins;
 };
