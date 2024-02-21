@@ -51,7 +51,7 @@ void items::Usable_Items(){
     int gasolin_tank = 25;
     int bullet;
 
-    // Special Items
+    // Special items
     bool walkman;
     bool guitar;
     bool mouth_organ;

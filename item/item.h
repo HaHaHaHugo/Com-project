@@ -51,11 +51,11 @@ void items::Crafting_Materials(){
 // usable items + function
 void items::Usable_Items(){
 
-    // Common Items
+    // Common items
     int gasolin_tank = 25;
     int bullet;
 
-    // Special Items
+    // Special items
     bool walkman;
     bool guitar;
     bool mouth_organ;
