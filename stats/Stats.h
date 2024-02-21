@@ -11,7 +11,7 @@ using namespace std;
 //                  !!!!!!!!!!   CAUTION: DO NOT TEST IN .h   !!!!!!!!!!
 //
 
-// stats + abilities + all_function
+// stats + abilities + allfunction
 struct stats
 {
     public:
@@ -93,14 +93,14 @@ int main()
     stats Paula = {"Paula",50,0,50,100,40,0,10,90};
     stats Alejandro = {"Alejandro",70,0,70,100,60,80,80,0};
 
-    //stats
+    // stats
     Paul.showStats();
     Ramona.showStats();
     Hugo.showStats();
     Paula.showStats();
     Alejandro.showStats();
 
-    //abilities
+    // abilities
     Paul.showAbilities();
     Ramona.showAbilities();
     Hugo.showAbilities();
