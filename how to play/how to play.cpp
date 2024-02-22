@@ -13,7 +13,7 @@ void Help_Choose_Town(){
     cout << "It might damaged your car or maybe kill someone." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Books Abilities TutoriaL
 void Help_Learning(){
@@ -23,7 +23,7 @@ void Help_Learning(){
     cout << "improve that skills of characters who read." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Consuming Tutorial
 void Help_Eat(){
@@ -34,7 +34,7 @@ void Help_Eat(){
     cout << "Choose it according to the situation." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Healing Tutorial
 void Help_Heal(){
@@ -45,7 +45,7 @@ void Help_Heal(){
     cout << "Choose it according to the situation." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Crafting Tutorial
 void Help_Crafting(){
@@ -56,7 +56,7 @@ void Help_Crafting(){
     cout << "Choose the right person to craft various equipment." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Driving Tutorial
 void Help_Traveling(){
@@ -67,7 +67,7 @@ void Help_Traveling(){
     cout << "Choose the speed according to the situation." << endl;
     cout << "             --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Hunting Tutorail
 void Help_Hunting(){
@@ -78,7 +78,7 @@ void Help_Hunting(){
     cout << "Depends on, how much does each characrters have." << endl;
     cout << "             --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Jobs Tutorial
 void Help_Job(){
@@ -91,7 +91,7 @@ void Help_Job(){
     cout << "per job you accept." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Trading Tutorial
 void Help_Trading(){
@@ -101,7 +101,7 @@ void Help_Trading(){
     cout << "The time passed by 1 hour per person who come to trade" << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Warzone Driveby Tutorial
 void Help_WarzoneDriveby(){
@@ -112,6 +112,7 @@ void Help_WarzoneDriveby(){
     cout << "But lost more gasolin than normal route." << endl;
     cout << "\n";
     cout << "If you choose to trespassing. You're in danger." << endl;
+    cout << "And the Avoid Traps Mini-Game will appear to play" << endl;
     cout << "But you can safe gasolin more than roundabout." << endl;
     cout << "\n";
     cout << "If you choose to wait. The time passed by 2 hours" << endl;
@@ -120,7 +121,7 @@ void Help_WarzoneDriveby(){
     cout << "Choose carefully, some choice might kill someone" << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Stress Tutorial
 void Help_Stress(){
@@ -135,7 +136,7 @@ void Help_Stress(){
     cout << "They will end up unpeacefully" << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
 
 // Repair Car Tutorial
 void Help_RepairCar(){
@@ -147,4 +148,32 @@ void Help_RepairCar(){
     cout << "Be careful about your trail you traveling." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
-}
+};
+
+// Avoid Trap Mini-Game Tutorial
+void Help_AvoidTrap(){
+    cout << "                    Avoid Trap" << endl;
+    cout << "\n";
+    cout << "You have to avoid all of the traps in the road." << endl;
+    cout << "There's no helping items, You can't use any items" << endl;
+    cout << "Unless you passed the road. If you got too much" << endl;
+    cout << "damage. It has a chance to take damage to your" << endl;
+    cout << "characters to. That's mean they can died if you" << endl;
+    cout << "take more damage. Most unlucky, you car explode" << endl;
+    cout << "and all of your characters are died immidiatly." << endl;
+    cout << "            --- ENTER TO CONTINUE --- \n";
+    cin.get();
+};
+
+// Doubt Sentence Mini-Game Tutorial
+void Help_DoubtSentence(){
+    cout << "                   Doubt Sentence" << endl;
+    cout << "\n";
+    cout << "You have to press the button in time to let the" << endl;
+    cout << "negotiation went successfully. If you miss any." << endl;
+    cout << "The person you're talking to will start to doubt" << endl;
+    cout << "you. If you miss more than 3 times. The negotiation" << endl;
+    cout << "will failed and appears a bad situation that happening." << endl;
+    cout << "             --- ENTER TO CONTINUE --- \n";
+    cin.get();
+};
