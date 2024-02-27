@@ -41,7 +41,7 @@ void items::Books(){
     int books_stealth = 10;
 };
 
-// crafting items + function
+// crafting items + function :  Craft / Repair
 void items::Crafting_Materials(){
     int woods = 10;
     int scrap_metal = 30;
@@ -56,13 +56,13 @@ void items::Usable_Items(){
     int gasolin_tank = 25;
     int bullet;
 
-    // Special items
+    // Special items : - Stress
     bool walkman;
     bool guitar;
     bool mouth_organ;
 };
 
-// food items + function : 
+// food items + function : + Hunger
 void items::Foods(){
 
     // Drink
@@ -94,12 +94,12 @@ void items::Foods(){
     int canned_fruit = 100;
 };
 
-// currency item + function
+// currency item + function : Buy/Sell
 void items::Currency(){
     int coins;
 };
 
-// guns + function
+// guns + function : Hunting / Killing
 void items::Guns(){
     int rifle = 10;
     int shotgun = 20;
