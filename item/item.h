@@ -62,7 +62,7 @@ void items::Usable_Items(){
     bool mouth_organ;
 };
 
-// food items + function
+// food items + function : 
 void items::Foods(){
 
     // Drink

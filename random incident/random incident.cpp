@@ -65,27 +65,27 @@ void RI10(){
 // Random Incident 11 - 15: Hungry
 void RI11(){
     cout << "Paul was hungry.";
-    hunger += 10;
+    hunger -= 10;
 };
 
 void RI12(){
     cout << "Ramona was hungry.";
-    hunger += 10;
+    hunger -= 10;
 };
 
 void RI13(){
     cout << "Hugo was hungry.";
-    hunger += 10;
+    hunger -= 10;
 };
 
 void RI14(){
     cout << "Paula was hungry.";
-    hunger += 10;
+    hunger -= 10;
 };
 
 void RI15(){
     cout << "Alejandro was hungry.";
-    hunger += 10;
+    hunger -= 10;
 };
 
 // Random Incident 16 - 20: Tired
