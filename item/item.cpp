@@ -16,6 +16,7 @@ struct items
     void Usable_Items();
     void Foods();
     void Currency();
+    void Guns();
 };
 
 // heal items + function
@@ -93,3 +94,10 @@ void items::Foods(){
 void items::Currency(){
     int coins;
 };
+
+// guns + function
+void items::Guns(){
+    int rifle = 10;
+    int shotgun = 20;
+    int pisto = 5;
+}

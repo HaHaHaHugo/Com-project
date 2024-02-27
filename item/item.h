@@ -20,9 +20,10 @@ struct items
     void Usable_Items();
     void Foods();
     void Currency();
+    void Guns();
 };
 
-// heal items + function
+// heal items + function : + Health(Characters)
 void items::Heal(){
     int bandage = 10;
     int medicine = 25;
@@ -32,7 +33,7 @@ void items::Heal(){
     int medicbag = 100;
 };
 
-// learning items + function
+// learning items + function : + Skills
 void items::Books(){
     int books_survival = 10;
     int books_crafting = 10;
@@ -97,3 +98,10 @@ void items::Foods(){
 void items::Currency(){
     int coins;
 };
+
+// guns + function
+void items::Guns(){
+    int rifle = 10;
+    int shotgun = 20;
+    int pisto = 5;
+}
