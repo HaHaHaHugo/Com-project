@@ -100,4 +100,4 @@ void items::Guns(){
     int rifle = 10;
     int shotgun = 20;
     int pisto = 5;
-}
+};
