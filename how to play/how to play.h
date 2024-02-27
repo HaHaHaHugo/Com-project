@@ -168,16 +168,3 @@ void Help_AvoidTrap(){
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
 };
-
-// Doubt Sentence Mini-Game Tutorial
-void Help_DoubtSentence(){
-    cout << "                   Doubt Sentence" << endl;
-    cout << "\n";
-    cout << "You have to press the button in time to let the" << endl;
-    cout << "negotiation went successfully. If you miss any." << endl;
-    cout << "The person you're talking to will start to doubt" << endl;
-    cout << "you. If you miss more than 3 times. The negotiation" << endl;
-    cout << "will failed and appears a bad situation that happening." << endl;
-    cout << "             --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
