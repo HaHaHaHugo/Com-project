@@ -89,7 +89,7 @@ void items::Foods(){
     int pineapple = 75;
     int canned_fruit = 100;
 
-    // Energy Consuming
+    // Energy Consuming : + Stamina
     int energy_bar = 10;
     int protein_bar = 25;
     int energy_drink = 50;
