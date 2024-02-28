@@ -52,10 +52,10 @@ void items::Usable_Items(){
     int gasolin_tank = 25;
     int bullet;
 
-    // Special items : - Stress
-    bool walkman;
-    bool guitar;
-    bool mouth_organ;
+    // Special items : + Stress
+    int walkman = 20;
+    int guitar = 20;
+    int mouth_organ = 20;
 };
 
 // food items + function : + Hunger
