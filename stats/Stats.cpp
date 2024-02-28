@@ -42,6 +42,13 @@ struct stats_max
         int stamina_max = 100;
 };
 
+// limit of enemy stats
+struct enemy_stats_max
+{
+    public:
+        int EHM = 50;
+};
+
 // limit of abilities
 struct abilities_max
 {
