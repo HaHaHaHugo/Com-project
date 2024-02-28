@@ -102,7 +102,5 @@ void items::Currency(){
 
 // guns + function : Hunting / Killing
 void items::Guns(){
-    int rifle = 10;
-    int shotgun = 20;
-    int pisto = 5;
+    int rifle = 100;
 };
