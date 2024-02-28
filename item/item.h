@@ -92,6 +92,11 @@ void items::Foods(){
     int jackfruit = 50;
     int pineapple = 75;
     int canned_fruit = 100;
+
+    // Energy Consuming
+    int energy_bar = 10;
+    int protein_bar = 25;
+    int energy_drink = 50;
 };
 
 // currency item + function : Buy/Sell
