@@ -14,6 +14,7 @@ void Credit1(){
     cout << "Wiriya Khotchahin" << endl;
     cout << "Phurinat Wongkhankaew" << endl;
     cout << "\n";
+    cout << "\n";
 };
 
 // Credit2: Music and Sound Director
@@ -21,6 +22,7 @@ void Credit2(){
     cout << "Music and Sound Director" << endl;
     cout << "\n";
     cout << "Siravit Kaewmakoon" << endl;
+    cout << "\n";
     cout << "\n";
 };
 
@@ -30,6 +32,7 @@ void Credit3(){
     cout << "\n";
     cout << "Wichaiyut KiangKham" << endl;
     cout << "\n";
+    cout << "\n";
 };
 
 // Credit4: Story
@@ -37,6 +40,7 @@ void Credit4(){
     cout << "       Story" << endl;
     cout << "\n";
     cout << "Siravit Kaewmakoon" << endl;
+    cout << "\n";
     cout << "\n";
 };
 
@@ -49,6 +53,7 @@ void Credit5(){
     cout << "Phurinat Wongkhankaew" << endl;
     cout << "Wiriya Khotchahin" << endl;
     cout << "\n";
+    cout << "\n";
 };
 
 // Credit6: Game Designer
@@ -56,5 +61,6 @@ void Credit6(){
     cout << "   Game Designer" << endl;
     cout << "\n";
     cout << "Siravit Kaewmakoon" << endl;
+    cout << "\n";
     cout << "\n";
 };
