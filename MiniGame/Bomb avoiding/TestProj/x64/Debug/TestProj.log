@@ -1,0 +1,12 @@
+﻿  Source.cpp
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(56,48): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(56,48): warning C4244:         with
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(56,48): warning C4244:         [
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(56,48): warning C4244:             T=unsigned int
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(56,48): warning C4244:         ]
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(87,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(87,52): warning C4244:         with
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(87,52): warning C4244:         [
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(87,52): warning C4244:             T=unsigned int
+D:\GitWork\Procomproj\TestProj\TestProj\Source.cpp(87,52): warning C4244:         ]
+  TestProj.vcxproj -> D:\GitWork\Procomproj\TestProj\x64\Debug\TestProj.exe
