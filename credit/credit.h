@@ -31,6 +31,7 @@ void Credit3(){
     cout << "   User Interface" << endl;
     cout << "\n";
     cout << "Wichaiyut KiangKham" << endl;
+    cout << "Siravit Kaewmakoon" << endl;
     cout << "\n";
     cout << "\n";
 };
