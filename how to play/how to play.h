@@ -147,8 +147,7 @@ void Help_RepairCar(){
     cout << "                 Repairing Car" << endl;
     cout << "\n";
     cout << "If your car get some damage, you can fix it." << endl;
-    cout << "But if your car's out of limit. It'll explode," << endl;
-    cout << "or lucky just undrivable. You have to walk." << endl;
+    cout << "But if your car's out of limit. It'll explode." << endl;
     cout << "Be careful about your trail you traveling." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
