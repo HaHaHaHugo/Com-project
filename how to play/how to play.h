@@ -51,17 +51,6 @@ void Help_Heal(){
     cin.get();
 };
 
-// Driving Tutorial
-void Help_Traveling(){
-    cout << "                    Traveling" << endl;
-    cout << "\n";
-    cout << "The faster you drive, The faster you arrive." << endl;
-    cout << "But this comes with increased fuel consumption as well." << endl;
-    cout << "Choose the speed according to the situation." << endl;
-    cout << "             --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
-
 // Hunting Tutorail
 void Help_Hunting(){
     cout << "                      Hunting" << endl;
