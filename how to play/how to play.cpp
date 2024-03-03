@@ -47,17 +47,6 @@ void Help_Heal(){
     cin.get();
 };
 
-// Crafting Tutorial
-void Help_Crafting(){
-    cout << "                    Crafting" << endl;
-    cout << "\n";
-    cout << "An individual's crafting ability directly affects" << endl;
-    cout << "the state of the craftable items." << endl;
-    cout << "Choose the right person to craft various equipment." << endl;
-    cout << "            --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
-
 // Driving Tutorial
 void Help_Traveling(){
     cout << "                    Traveling" << endl;
