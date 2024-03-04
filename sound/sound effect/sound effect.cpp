@@ -126,23 +126,6 @@ void sound23()
     Sound.play();
 };
 
-// sound24: Guitar
-void sound24()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound24;
-    if(!Sound24.loadFromFile("Project Sound/Interface Audio/Charactor and Car/Guitar.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound24
-    Sound.setBuffer(Sound24);
-
-    // Play
-    Sound.play();
-};
-
 // sound25: Tape Play
 void sound25()
 {
@@ -155,57 +138,6 @@ void sound25()
 
     // Call Sound25
     Sound.setBuffer(Sound25);
-
-    // Play
-    Sound.play();
-};
-
-// sound26: Random Incident In Car
-void sound26()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound26;
-    if(!Sound26.loadFromFile("Project Sound/Interface Audio/Charactor and Car/Random Incident In Car.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound26
-    Sound.setBuffer(Sound26);
-
-    // Play
-    Sound.play();
-};
-
-// sound27: Buy
-void sound27()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound27;
-    if(!Sound27.loadFromFile("Project Sound/Interface Audio/In Town/Buy.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound27
-    Sound.setBuffer(Sound27);
-
-    // Play
-    Sound.play();
-};
-
-// sound28: Trade
-void sound28()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound28;
-    if(!Sound28.loadFromFile("Project Sound/Interface Audio/In Town/Trade.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound28
-    Sound.setBuffer(Sound28);
 
     // Play
     Sound.play();
@@ -250,7 +182,7 @@ void sound31()
 {
     // Finding Song's Address
     sf::SoundBuffer Sound31;
-    if(!Sound31.loadFromFile("Project Sound/Interface Audio/UI/Continue and Using Book.wav")){
+    if(!Sound31.loadFromFile("Project Sound/Interface Audio/UI/Continue.wav")){
         cout << "ERROR" << endl;
     }
     sf::Sound Sound;
@@ -274,23 +206,6 @@ void sound32()
 
     // Call Sound32
     Sound.setBuffer(Sound32);
-
-    // Play
-    Sound.play();
-};
-
-// sound33: Talk with Stranger
-void sound33()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound33;
-    if(!Sound33.loadFromFile("Project Sound/Interface Audio/UI/Talk with Stranger.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound33
-    Sound.setBuffer(Sound33);
 
     // Play
     Sound.play();
