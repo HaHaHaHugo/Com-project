@@ -32,21 +32,16 @@ void Event0(){
     cin.get();
     cout << "November 5 ,1942, Mr. Paul Arlo" << endl;
     cout << "was a freelance musician before the war." << endl;
-    cout << "He has a mother named Ramona Arlo," << endl;
-    cout << "an older brother named Hugo Arlo," << endl;
-    cout << "a younger sister named Paula Arlo," << endl;
-    cout << "and a grandfather named Alejandro Arlo." << endl;
-    cout << "They're in the war zone of Santonio, on" << endl;
+    cout << "He's in the war zone of Santonio, on" << endl;
     cout << "the edge of the country of Gabralin," << endl;
     cout << "where fighting is going on like crazy.";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
-    cout << "They are under a secret tunnel." << endl;
+    cout << "He's under a secret tunnel." << endl;
     cout << "And build vehicles to travel to" << endl;
     cout << "the war-free countries like Oreland." << endl;
-    cout << "By planning that His grandfather" << endl;
-    cout << "predicted that We should be there" << endl;
+    cout << "By planning that you should be there" << endl;
     cout << "before February 10, 1943.";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
@@ -58,43 +53,26 @@ void Event0(){
     cin.get();
 };
 
-// Event1: Rob or Run
+// Event1: Rob or Hide
 void Event1(){
-    cout << "They drove over the thorns that" << endl;
-    cout << "soldiers had planted. Cause their" << endl;
-    cout << "car tires to burst ,Lost control" << endl;
-    cout << "and fell onto the side of a hill.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Luckily everyone survived. But," << endl;
-    cout << "the car smoked. This made the" << endl;
-    cout << "nearset soldiers to notice" << endl;
-    cout << "and they were coming.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Ramone suggested to" << endl;
-    cout << "leave the car and continue walking." << endl;
-    cout << "While Hugo and Alejandro suggested" << endl;
-    cout << "rob the soldier's vehicle.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Whose suggestion will you take?";
+    cout << "You drove over the thorns that" << endl;
+    cout << "soldiers had planted. Cause " << endl;
+    cout << "your car's tires to burst" << endl;
+    cout << ",Lost control and fell onto the side" << endl;
+    cout << "of a hill. Luckily everyone survived." << endl;
+    cout << "But, the car smoked. This made the" << endl;
+    cout << "nearset soldiers to notice and they were coming." << endl;
+    cout << "You want to wait until they gone and repair it." << endd;
+    cout << "Or  rob the soldier's vehicle. Which choice will you take?" << endl;
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
 };
 
-// Event2: Trade Car With Sister's Life
+// Event2: Trade Car With Your Life
 void Event2(){
     cout << "A stranger offers you a car to drive on" << endl;
-    cout << "But in exchange, your sister has to stay" << endl;
-    cout << "with him.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
+    cout << "But in exchange, you have to go with him." << endl;
     cout << "Would you accept this offer or not?";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
@@ -103,14 +81,9 @@ void Event2(){
 
 // Event3: Coincidence isn't real.
 void Event3(){
-    cout << "Our family had to drive through" << endl;
-    cout << "a military checkpoint. One of them" << endl;
-    cout << "is the person whose car you stole.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Would you drive in carefully" << endl;
-    cout << "or drive through it.";
+    cout << "You had to drive through a military checkpoint." << endl;
+    cout << "One of them is your friend. Would you drive in" << endl;
+    cout << "carefully or drive through it?" << endl;
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -118,16 +91,10 @@ void Event3(){
 
 // Event4: Save or Sacrified
 void Event4(){
-    cout << "While sleeping at night During" << endl;
-    cout << "the changing of the guard duty." << endl;
-    cout << "someone were kidnapped." << endl;
-    cout << "Before everyone knew it, two hours had passed." << endl;
-    cout << "One of your group noticed the military camp" << endl;
-    cout << "is about 8 kilometers from the resting point.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Would you go help him/her or leave him/her behind";
+    cout << "While sleeping at night. someone were stole your foods." << end;
+    cout << "And you noticed the bandit camp is about 8 kilometers" << endl;
+    cout << "from the resting point. Would you go take it back or" << endl;
+    cout << "leave it?";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -135,13 +102,9 @@ void Event4(){
 
 // Event5: Belong to them or us
 void Event5(){
-    cout << "Your group finds a pickup truck," << endl;
-    cout << "in good condition, but with survival things," << endl;
-    cout << "food, and two guns in it.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Would you rob the car or ignore it";
+    cout << "You finds a pickup truck, in good condition," << endl;
+    cout << "but with survival things, food, and two guns in it." << endl;
+    cout << "Would you rob the car or ignore it?" << endl;
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -149,14 +112,10 @@ void Event5(){
 
 // Event6: Run Roundabout or Rob back
 void Event6(){
-    cout << "Your group has been ambushed." << endl;
-    cout << "By a thief hiding in an abandoned village." << endl;
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Would you drive away, or negotiate to go," << endl;
-    cout << "or rob the thieves back. Even if" << endl;
-    cout << "it means killing them.";
+    cout << "You has been ambushed. By a thief hiding" << endl;
+    cout << "in an abandoned village. Would you drive away?" << endl;
+    cout << "Or negotiate to go? or rob the thieves back?" << endl;
+    cout << "Even if it means killing them.";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -165,8 +124,8 @@ void Event6(){
 // Event7: Shit of the iron bird
 void Event7(){
     cout << "Bomber plane Drop a bomb on the city." << endl;
-    cout << "Your group luckily find cover in time." << endl;
-    cout << "But someone got hit by shrapnel.";
+    cout << "You luckily find cover in time." << endl;
+    cout << "But you got hit by shrapnel.";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -174,32 +133,23 @@ void Event7(){
 
 // Event8: That's my car, isn't it?
 void Event8(){
-    cout << "A group of strangers walk up to your group." << endl;
+    cout << "A group of strangers walk up to you." << endl;
     cout << "One of them claimed that your group has taken" << endl;
-    cout << "his things. A group of strangers were" << endl;
-    cout << "in confusion. and don't trust your group" << endl;
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "Would you negotiate. Or accept the accusation" << endl;
-    cout << "Or deny it.";
+    cout << "his things. A group of strangers were in confusion." << endl;
+    cout << "And don't trust you. Would you negotiate? Or accept" << endl;
+    cout << "the accusation Or deny it?";
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
 };
 
-// Event9: God want us to die, Satan want us to alive
+// Event9: God want me to die, Satan want me to alive
 void Event9(){
     cout << "Bomber plane drop the bomb and the infantry" << endl;
-    cout << "captured the city. There was fighting on" << endl;
-    cout << "both sides. Luckily, your group wasn't in" << endl;
-    cout << "the middle of the city. which is where the" << endl;
-    cout << "battle is taking place.";
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "But your car explodes from a bomb." << endl;
-    cout << "Make your group walk from now on.";
+    cout << "captured the city. There was fighting on both" << endl;
+    cout << "sides. Luckily, you wasn't in the middle of the city." << endl;
+    cout << "which is where the battle is taking place. But your" << endl;
+    cout << "car explodes from a bomb. You have to walk from now on." << endl;
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
@@ -207,16 +157,12 @@ void Event9(){
 
 // Event10: The End of the blood trails
 void Event10(){
-    cout << "Your group has reached the end of the trail." << endl;
-    cout << "A soldier from Oreland has call you to" << endl;
-    cout << "take cover in a military bunker. And wait" << endl;
-    cout << "here for about 2-3 days." << endl;
-    cout << "\n";
-    cout << "      --- ENTER TO CONTINUE --- \n";
-    cin.get();
-    cout << "During this time, the soldiers were asking" << endl;
-    cout << "a lot of questions that they want to know." << endl;
-    cout << "which your group agrees to do without any conditions";
+    cout << "You have reached the end of the trail." << endl;
+    cout << "A soldier from Oreland has call you to take" << endl;
+    cout << "cover in a military bunker. And wait here for" << endl;
+    cout << "about 2-3 days. During this time, the soldiers" << endl;
+    cout << "were asking a lot of questions that they want" << endl;
+    cout << "to know. which you agrees to do without any conditions." << endl;
     cout << "\n";
     cout << "      --- ENTER TO CONTINUE --- \n";
     cin.get();
