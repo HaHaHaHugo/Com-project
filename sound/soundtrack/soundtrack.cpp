@@ -27,27 +27,6 @@ void sound1()
     Sound.play();
 };
 
-
-// Sound2: Story Telling song
-void sound2()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound2;
-    if(!Sound2.loadFromFile("Project Sound/Song/Western Trail.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound2
-    Sound.setBuffer(Sound2);
-
-    // Looping
-    Sound.setLoop(true);
-
-    // Play
-    Sound.play();
-};
-
 // sound3: Driving song
 void sound3()
 {
@@ -60,46 +39,6 @@ void sound3()
 
     // Call Sound3
     Sound.setBuffer(Sound3);
-
-    // Looping
-    Sound.setLoop(true);
-
-    // Play
-    Sound.play();
-};
-
-// sound4: Visiting town / Resting song
-void sound4()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound4;
-    if(!Sound4.loadFromFile("Project Sound/Song/Finale Lalluby.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound4
-    Sound.setBuffer(Sound4);
-
-    // Looping
-    Sound.setLoop(true);
-
-    // Play
-    Sound.play();
-};
-
-// sound5: Hunting song
-void sound5()
-{
-    // Finding Song's Address
-    sf::SoundBuffer Sound5;
-    if(!Sound5.loadFromFile("Project Sound/Song/The Parrot's Party.wav")){
-        cout << "ERROR" << endl;
-    }
-    sf::Sound Sound;
-
-    // Call Sound5
-    Sound.setBuffer(Sound5);
 
     // Looping
     Sound.setLoop(true);
