@@ -15,15 +15,13 @@ using namespace std;
 struct items
 {
     void Heal();
-    void Books();
-    void Crafting_Materials();
     void Usable_Items();
     void Foods();
     void Currency();
     void Guns();
 };
 
-// heal items + function : + Health(Characters)
+// heal items + function  : + Health(Characters)
 void items::Heal(){
     int bandage = 10;
     int medicine = 25;
@@ -31,22 +29,6 @@ void items::Heal(){
     int bloodbag = 50;
     int firstaidkit = 75;
     int medicbag = 100;
-};
-
-// learning items + function : + Skills
-void items::Books(){
-    int books_survival = 10;
-    int books_crafting = 10;
-    int books_combat = 10;
-    int books_stealth = 10;
-};
-
-// crafting items + function :  Craft / Repair
-void items::Crafting_Materials(){
-    int woods = 10;
-    int scrap_metal = 30;
-    int iron = 50;
-    int tools_kit = 100;
 };
 
 // usable items + function
@@ -58,7 +40,6 @@ void items::Usable_Items(){
 
     // Special items : + Stress
     int walkman = 20;
-    int guitar = 20;
     int mouth_organ = 20;
 };
 
@@ -97,11 +78,6 @@ void items::Foods(){
     int energy_bar = 10;
     int protein_bar = 25;
     int energy_drink = 50;
-};
-
-// currency item + function : Buy/Sell
-void items::Currency(){
-    int coins;
 };
 
 // guns + function : Hunting / Killing
