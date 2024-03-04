@@ -19,15 +19,6 @@ void Help_Choose_Town(){
     cin.get();
 };
 
-// Books Abilities TutoriaL
-void Help_Learning(){
-    cout << "                    Learning" << endl;
-    cout << "\n";
-    cout << "When you read the books, the books you read will" << endl;
-    cout << "improve that skills of characters who read." << endl;
-    cout << "            --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
 
 // Consuming Tutorial
 void Help_Eat(){
@@ -62,29 +53,6 @@ void Help_Hunting(){
     cin.get();
 };
 
-// Jobs Tutorial
-void Help_Job(){
-    cout << "                  Accepting Jobs" << endl;
-    cout << "\n";
-    cout << "If you done some job. Hired person will pay you." << endl;
-    cout << "Depends on how difficult it is, but if you failed" << endl;
-    cout << "Hired person won't pay you any." << endl;
-    cout << "Whether you failed or win, The time passed by 1 hour" << endl;
-    cout << "per job you accept." << endl;
-    cout << "            --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
-
-// Trading Tutorial
-void Help_Trading(){
-    cout << "                      Trading" << endl;
-    cout << "\n";
-    cout << "Whether you accept the offer from trader or not." << endl;
-    cout << "The time passed by 1 hour per person who come to trade" << endl;
-    cout << "            --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
-
 // Warzone Driveby Tutorial
 void Help_WarzoneDriveby(){
     cout << "                      Warzone" << endl;
@@ -116,17 +84,6 @@ void Help_Stress(){
     cout << "him/her. Don't be too panic." << endl;
     cout << "If some character get too much stress." << endl;
     cout << "They will end up unpeacefully" << endl;
-    cout << "            --- ENTER TO CONTINUE --- \n";
-    cin.get();
-};
-
-// Repair Car Tutorial
-void Help_RepairCar(){
-    cout << "                 Repairing Car" << endl;
-    cout << "\n";
-    cout << "If your car get some damage, you can fix it." << endl;
-    cout << "But if your car's out of limit. It'll explode." << endl;
-    cout << "Be careful about your trail you traveling." << endl;
     cout << "            --- ENTER TO CONTINUE --- \n";
     cin.get();
 };
