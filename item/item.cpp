@@ -14,7 +14,6 @@ struct items
     void Usable_Items();
     void Foods();
     void Currency();
-    void Guns();
 };
 
 // heal items + function  : + Health(Characters)
@@ -74,9 +73,4 @@ void items::Foods(){
     int energy_bar = 10;
     int protein_bar = 25;
     int energy_drink = 50;
-};
-
-// guns + function : Hunting / Killing
-void items::Guns(){
-    int rifle = 100;
 };
