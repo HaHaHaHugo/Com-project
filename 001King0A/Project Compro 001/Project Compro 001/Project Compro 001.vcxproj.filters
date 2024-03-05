@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="run cp001.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="story.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cradit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="How.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="story0.1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="story0.2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="story0.3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="story0.4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cradit6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTP7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cd.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ex.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ot.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sb.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bg.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="So.1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="So.3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="So.2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="So.4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cd1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htp.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTP7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
